@@ -12,7 +12,7 @@ Should work in Test and Classic mode.
 1. Join Quiz
 2. Open console and paste this
 ```ts
-fetch("https://raw.githubusercontent.com/TheOrangeYoshi/YOUHAVENOMANA/master/dist/bundle.js")
+fetch("https://raw.githubusercontent.com/TheOrangeYoshi/jester-script/main/dist/bundle.js")
 .then((res) => res.text()
 .then((t) => eval(t)))
 ```
@@ -25,7 +25,7 @@ This works in different way, instead of fetching Quizizz API it sends answer to 
 1. Join quiz, wait for first question and open console
 2. Paste this code to console
 ```ts
-fetch("https://raw.githubusercontent.com/TheOrangeYoshi/YOUHAVENOMANA/master/dist/bundle.js")
+fetch("https://raw.githubusercontent.com/TheOrangeYoshi/jester-script/main/dist/bundle.js")
 .then((res) => res.text()
 .then((t) => eval(t)))
 ```
